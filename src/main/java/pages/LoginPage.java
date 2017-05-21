@@ -29,8 +29,8 @@ public class LoginPage extends BaseFunctions{
 	}
 	
 	public ProfilePage LoginToApp(){
-		txt_UserName.sendKeys("test");
-		txt_Password.sendKeys("test");
+		txt_UserName.sendKeys("test2");
+		txt_Password.sendKeys("test2");
 		btn_Login.click();
 		return new ProfilePage(driver);
 	}
